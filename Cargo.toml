@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Badel2 <2badel2@gmail.com>"]
 license = "GPL-3.0"
 edition = "2021"
+repository = "https://github.com/Badel2/llvm-symbolizer-rust-wrapper"
+readme = "README.md"
+keywords = ["llvm-symbolizer", "demangle"]
 
 [dependencies]
 log = "0.4.20"
