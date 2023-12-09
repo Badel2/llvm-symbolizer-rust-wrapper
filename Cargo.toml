@@ -1,0 +1,13 @@
+[package]
+name = "llvm-symbolizer-rust-wrapper"
+version = "0.1.0"
+authors = ["Badel2 <2badel2@gmail.com>"]
+license = "GPL-3.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.20"
+log4rs = { version = "1.2", default-features = false, features = ["file_appender"] }
+regex = "1"
+rustc-demangle = "0.1.23"
+which = { version = "5", features = ["regex"] }
