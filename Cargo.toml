@@ -6,6 +6,7 @@ license = "GPL-3.0"
 edition = "2021"
 repository = "https://github.com/Badel2/llvm-symbolizer-rust-wrapper"
 readme = "README.md"
+description = "Fix Rust demangling for llvm-symbolizer"
 keywords = ["llvm-symbolizer", "demangle"]
 
 [dependencies]
